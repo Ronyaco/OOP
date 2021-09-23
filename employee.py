@@ -1,5 +1,5 @@
 
-from Person import Person
+from person import Person
 
 class Employee(Person):
     def __init__(self, name, age, address, phone, salary, office_address, office_phone):
